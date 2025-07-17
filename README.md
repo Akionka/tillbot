@@ -1,16 +1,27 @@
 # Till bot
 
-Till bot — телеграм-бот, сообщающий сколько времени осталось до того или иного события.
+Till bot is a Telegram bot, that shows how much time is left until an event in the future.
 
-## Установка и запуск
-Установите токен бота из [@botfather](https://t.me/botfather) в переменную среды окружения `BOT_TOKEN`.
+## Install & Run
+
+Set your bot token from [@botfather](https://t.me/botfather) to the `BOT_TOKEN` envieroment variable.
+
 ```sh
-export BOT_TOKEN=ваш_токен
+export BOT_TOKEN=your_token
 ```
-Склонируйте репозиторий и соберите бота.
+
+Clone the repository and build it.
+
 ```sh
+
 git clone https://github.com/Akionka/tillbot.git
 cd tillbot
 go build .
 ./tillbot
 ```
+
+## Screenshots
+
+![Inline interaction w/ bot](https://github.com/Akionka/tillbot/blob/master/images/inline.png "Inline interaction w/ bot")
+
+![Bot's output](https://github.com/Akionka/tillbot/blob/master/images/result.png "Bot's output")

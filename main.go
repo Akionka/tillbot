@@ -70,8 +70,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	updates, err :=
-		bot.UpdatesViaLongPolling(ctx, nil)
+	updates, err := bot.UpdatesViaLongPolling(ctx, nil)
 	if err != nil {
 		log.Fatal(err)
 	}
